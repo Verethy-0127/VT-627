@@ -26,7 +26,6 @@ trusted_clients:
     127.0.0.1
     100.86.218.124
     100.72.100.106
-    100.87.30.72
 
 # enables partial support of Octoprint API
 [octoprint_compat]
@@ -70,10 +69,3 @@ managed_services: klipper moonraker
 ##   Directory where the temporary frames are saved
 #ffmpeg_binary_path: /usr/bin/ffmpeg
 ##   Directory where ffmpeg is installed
-
-# Crowsnest update_manager entry
-[update_manager crowsnest]
-type: git_repo
-path: ~/crowsnest
-origin: https://github.com/mainsail-crew/crowsnest.git
-managed_services: crowsnest
