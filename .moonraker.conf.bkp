@@ -23,7 +23,6 @@ trusted_clients =
 	127.0.0.1
 	100.86.218.124
 	100.72.100.106
-	100.87.30.72
 
 [octoprint_compat]
 
@@ -37,27 +36,10 @@ type = web
 repo = mainsail-crew/mainsail
 path = ~/mainsail
 
-[update_manager KlipperScreen]
-type = git_repo
-path = ~/KlipperScreen
-origin = https://github.com/jordanruthe/KlipperScreen.git
-env = ~/.KlipperScreen-env/bin/python
-requirements = scripts/KlipperScreen-requirements.txt
-install_script = scripts/KlipperScreen-install.sh
-managed_services = KlipperScreen
-
-[update_manager timelapse]
-type = git_repo
-primary_branch = main
-path = ~/moonraker-timelapse
-origin = https://github.com/mainsail-crew/moonraker-timelapse.git
-managed_services = klipper moonraker
-
-[timelapse]
-
 [update_manager crowsnest]
 type = git_repo
 path = ~/crowsnest
 origin = https://github.com/mainsail-crew/crowsnest.git
 managed_services = crowsnest
+install_script = tools/install.sh
 
