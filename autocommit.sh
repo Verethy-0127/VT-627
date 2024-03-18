@@ -32,7 +32,7 @@ mainsail_folder=~/mainsail
 
 ### The branch of the repository that you want to save your config
 ### By default that is 'main'
-branch=master
+branch=main
 
 ### Set this to true if you want ONLY the history table to be dumped
 ### from data.mdb.
