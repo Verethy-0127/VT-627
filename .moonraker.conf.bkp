@@ -115,7 +115,3 @@ managed_services = klipper
 info_tags = 
 	desc=Cartographer Probe
 
-[spoolman]
-server = http://10.69.2.9:7912/
-sync_rate = 5
-
