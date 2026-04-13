@@ -1,11 +1,11 @@
 [Variables]
-mmu__revision = 1789
+mmu__revision = 1792
 mmu_calibration_bowden_home = 'mmu_gate'
 mmu_calibration_bowden_lengths = [901.8, 901.8, 901.8, 901.8]
 mmu_gear_rotation_distances = [23.1863, 23.1863, 23.1863, 23.1863]
 mmu_selector_bypass = -1
 mmu_selector_offsets = [4.0, 88.9, 173.6, 260.8]
-mmu_state_filament_pos = -1
+mmu_state_filament_pos = 0
 mmu_state_filament_remaining = 5.0
 mmu_state_filament_remaining_color = 'f21414ff'
 mmu_state_gate_color = ['000000ff', 'f21414ff', 'e91edbff', '4a148cff']
@@ -21,8 +21,8 @@ mmu_state_tool_selected = 1
 mmu_state_tool_to_gate_map = [0, 1, 2, 3]
 mmu_statistics_counters = {'mmu_restarts': {'count': 56, 'limit': -1, 'warning': ''}, 'servo_down': {'count': 437, 'limit': 5000, 'warning': 'Inspect servo mechanism for wear/damage', 'pause': False}, 'cutter_blade': {'count': 91, 'limit': 3000, 'warning': 'Inspect/replace filament cutting blade', 'pause': False}}
 mmu_statistics_gate_0 = {'pauses': 2, 'loads': 22, 'load_distance': 0.0, 'load_delta': 0.0, 'unloads': 21, 'unload_distance': 0.0, 'unload_delta': 0.0, 'load_failures': 3, 'unload_failures': 1, 'quality': -1.0}
-mmu_statistics_gate_1 = {'pauses': 6, 'loads': 22, 'load_distance': 0.0, 'load_delta': 0.0, 'unloads': 20, 'unload_distance': 0.0, 'unload_delta': 0.0, 'load_failures': 5, 'unload_failures': 0, 'quality': -1.0}
+mmu_statistics_gate_1 = {'pauses': 6, 'loads': 22, 'load_distance': 0.0, 'load_delta': 0.0, 'unloads': 21, 'unload_distance': 0.0, 'unload_delta': 0.0, 'load_failures': 5, 'unload_failures': 0, 'quality': -1.0}
 mmu_statistics_gate_2 = {'pauses': 2, 'loads': 30, 'load_distance': 0.0, 'load_delta': 0.0, 'unloads': 29, 'unload_distance': 0.0, 'unload_delta': 0.0, 'load_failures': 0, 'unload_failures': 0, 'quality': -1.0}
 mmu_statistics_gate_3 = {'pauses': 4, 'loads': 25, 'load_distance': 0.0, 'load_delta': 0.0, 'unloads': 22, 'unload_distance': 0.0, 'unload_delta': 0.0, 'load_failures': 4, 'unload_failures': 0, 'quality': -1.0}
-mmu_statistics_swaps = {'pre_load': 60.07, 'purge': 26.71, 'post_load': 148.55, 'load': 1416.3, 'total_swaps': 82, 'swaps_since_pause': 0, 'swaps_since_pause_record': 36, 'total': 2971.39, 'pre_unload': 55.88, 'form_tip': 924.5, 'post_unload': 82.85, 'unload': 2224.61, 'total_pauses': 14, 'pause': 201.37}
+mmu_statistics_swaps = {'pre_load': 60.07, 'purge': 26.71, 'post_load': 148.55, 'load': 1416.3, 'total_swaps': 82, 'swaps_since_pause': 0, 'swaps_since_pause_record': 36, 'total': 2971.39, 'pre_unload': 56.49, 'form_tip': 933.51, 'post_unload': 83.76, 'unload': 2246.04, 'total_pauses': 14, 'pause': 201.37}
 
